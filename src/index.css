@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  background-color: #282828;
+}
+
+span,
+li,
+input,
+label,
+h5 {
+  background-color: inherit;
+}
+
+button:hover {
+  background-color: darkgray;
+}
+
+.sidebar {
+  margin: 0;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 0;
+  width: 14%;
+  position: fixed;
+  height: 100%;
+  text-align: left;
+}
+
+.item-box {
+  border: 2px solid black;
+  text-align: center;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  background-color: blanchedalmond;
+  font-size: 90%;
+  width: 25%;
+  margin: auto;
+  display: inline-block;
+}
+
+.recipe-box {
+  border: 2px solid black;
+  text-align: left;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  background-color: blanchedalmond;
+  font-size: 90%;
+  width: 15%;
+  height: 12vh;
+  display: inline-table;
+  box-sizing: content-box;
+}
+
+.fuels {
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: lightslategray;
+  text-align: center;
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+.fuel-row {
+  text-align: left;
+  background-color: inherit;
+  margin: 1%;
+  width: 100%;
+}
+
+.fuel-title {
+  min-width: 15ch;
+}
+
+.fuel-text {
+  width: 25ch;
+}
+
+.fuel-input {
+  background-color: lightblue;
+  margin: 1%;
+  margin-right: 2%;
+  border: 2px solid black;
+  width: 10ch;
+}
+
+.item-input {
+  background-color: lightgrey;
+  margin: 1%;
+  margin-right: 2%;
+  border: 2px solid black;
+  width: 15ch;
+}
+
+.item-list {
+  text-align: left;
+  background-color: rgb(201, 206, 202);
+  color: black;
+  font-weight: 600;
+  display: block;
+  margin: auto;
+}
+
+.item-list-wrapper {
+  margin: auto;
+  width: 50%;
+}
+
+.recipes {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  color: black;
+  height: 100%;
+}
+
+.items {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  color: black;
+}
+
+.contain {
+  background-color: inherit;
+}
+
+.white {
+  color: white;
+}
