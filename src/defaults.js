@@ -7,7 +7,7 @@ const defaultItemOptions = [
   "Crystal Oscillator",
   "Compacted Coal",
   "Fuel",
-  "Turbo Fuel",
+  "Turbofuel",
   "Reinforced Iron Plate",
   "Motor",
   "Concrete"

@@ -13,6 +13,7 @@ class ItemRow extends Component {
 
   renderItem(itemNum) {
     const { item, count, baseMaterials, materials } = this.props;
+    // console.log("item is", item, materials[item]);
     let ratio = count / materials[item].produced;
     switch (itemNum) {
       case 1:

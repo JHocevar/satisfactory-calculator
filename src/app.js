@@ -121,13 +121,15 @@ class App extends Component {
   };
 
   handleItemInput = (item, event) => {
-    let items = JSON.parse(JSON.stringify(this.state.itemOptions));
+    let items = this.state.itemOptions;
     items[item] = parseFloat(event.target.value);
     if (items[item] === "") {
       items[item] = 0;
     }
     this.setState({ itemOptions: items });
+    // console.log("updated");
     this.updateItemsToCraft();
+    // console.log("updated item to", event.target.value);
   };
 
   renderPage() {
@@ -181,6 +183,7 @@ class App extends Component {
   }
 
   render() {
+    // console.log("rendering");
     return (
       <div>
         <TitleBar />

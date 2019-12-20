@@ -14,7 +14,7 @@ class ItemBox extends Component {
               <input
                 className="item-input"
                 type="number"
-                min-value="0"
+                min="0"
                 value={items[key]}
                 onChange={event => this.props.onItemChange(key, event)}
               />
